@@ -15,7 +15,7 @@
   },
   "author": "Ilkka Laukkanen <ilkka@ilkka.io>",
   "license": "MIT",
-  "homepage": "https://webagecalc.github.io",
+  "homepage": "https://ilkka.github.io/webagecalc",
   "devDependencies": {
     "alt": "^0.16.7",
     "babel-core": "^5.4.7",
