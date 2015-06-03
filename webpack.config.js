@@ -61,7 +61,7 @@ if (TARGET === 'build') {
       }),
       new HtmlWebpackPlugin({
         title: 'Age calculator',
-        template: path.join(ROOT_PATH, 'app/index.html')
+        template: path.join(ROOT_PATH, 'app/index.tpl')
       })
     ],
     module: {
