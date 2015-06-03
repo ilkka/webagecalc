@@ -34,7 +34,7 @@ export default class App extends React.Component {
   }
 
   calculate(e) {
-    let birthDate = moment(e.target.value);
+    let birthDate = moment(e.target.value, ['YYYY-MM-dd', 'dd.MM.YYYY']);
     let duration = moment.duration(moment().diff(birthDate));
     let years = duration.years();
     let months = Math.floor((duration.asYears() % 1) * 12);
